@@ -2,8 +2,7 @@
 export default {
   content: [
     "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",
-    "./*.{js,ts,jsx,tsx}",
+    "./src/**/*.{js,ts,jsx,tsx}", // 이 줄을 추가하세요
   ],
   theme: {
     extend: {},
